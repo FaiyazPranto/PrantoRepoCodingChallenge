@@ -13,7 +13,7 @@ public class Main extends Application {
 			BorderPane root = new BorderPane();
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("Pranto's project.);
+			primaryStage.setTitle("Pranto's project");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
