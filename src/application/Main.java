@@ -13,13 +13,19 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Farhina's label"));
+			root.getChildren().add(new Label("Farhina's branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Pranto's project");
 			primaryStage.show();
 		} catch(Exception e) {
-			e.printStackTrace();
+
+			e.printStackTrace(); 
 		}
+
+			e.printStackTrace();
+		} 
+
 	}
 	
 	public static void main(String[] args) {
