@@ -19,7 +19,7 @@ public class Main extends Application {
 			primaryStage.setTitle("Pranto's project");
 			primaryStage.show();
 		} catch(Exception e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 	}
 	
