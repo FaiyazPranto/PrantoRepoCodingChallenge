@@ -14,6 +14,7 @@ public class Main extends Application {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Farhina's label"));
 			root.getChildren().add(new Label("Farhina's branch"));
+			root.getChildren().add(new Label("Pranto's branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Pranto's project");
@@ -22,9 +23,6 @@ public class Main extends Application {
 
 			e.printStackTrace(); 
 		}
-
-			e.printStackTrace();
-		} 
 
 	}
 	
